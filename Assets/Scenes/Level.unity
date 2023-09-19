@@ -3298,6 +3298,7 @@ GameObject:
   - component: {fileID: 1395729026}
   - component: {fileID: 1395729027}
   - component: {fileID: 1395729028}
+  - component: {fileID: 1395729029}
   m_Layer: 0
   m_Name: LevelControll
   m_TagString: Untagged
@@ -3425,6 +3426,19 @@ MonoBehaviour:
   disRun: 0
   addingDis: 0
   disDelay: 0.25
+--- !u!114 &1395729029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395729020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba059a30e6ffb844966ef08cdb6a93d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedToGooglePlay: 0
 --- !u!1 &1401225816 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 2db7e17401e08b94697ecd7acce75ab1,
